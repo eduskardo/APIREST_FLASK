@@ -70,16 +70,6 @@ class ItemList(MethodView):
 
 
 
-@blp.route('/ini')
-@blp.route('/ini/<name>')
-def initio(name=None):
-    return render_template('form.html', name=name)
-
-
-@blp.route("/num")
-@blp.route("/num/<int:number>", methods=['GET', 'POST'])
-def get_number(number=None):
-        if request.method == 'POST':
-            return render_template('edad.html', number=number)
-        else:
-            return render_template('edad.html', number=number)
+@blp.route("/")
+def hello_world():
+    return "<h1>Hello, World!</h1>"
