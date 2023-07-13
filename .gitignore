@@ -1,3 +1,6 @@
 **/.Ds_Store
 **/.venv
 **/Dockerfile
+**/.flaskenv
+**/__pycache__/
+**/.dockerignore
