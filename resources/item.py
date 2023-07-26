@@ -71,5 +71,5 @@ class ItemList(MethodView):
 
 
 @blp.route("/")
-def hello_world():
-    return "<h1>Hello, World!</h1>"
+def incio():
+    return "<h1>Pagina de inicio! </h1><h3><a href='https://flask.palletsprojects.com/en/2.3.x/quickstart/#a-minimal-application'>Haga Click para iniciar sesion!</a></h3>"

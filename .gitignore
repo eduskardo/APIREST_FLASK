@@ -4,3 +4,5 @@
 **/.flaskenv
 **/__pycache__/
 **/.dockerignore
+instance
+instance/data.db
