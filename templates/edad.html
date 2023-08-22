@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <form action="/num/" method="post" class="form-example">
+    <div class="form-example">
+      <label for="number">Enter your age: </label>
+      <input type="text" name="number" id="number" required placeholder="number"> 
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
+
+    <title>edad from Flask</title>
+    {% if number >= 18 %}
+      <h1>Tu edad es {{ number }} es mayor de edad!</h1>
+    {% else %}
+      <h1>Es menor!</h1>
+    {% endif %}
+</body>
+</html>

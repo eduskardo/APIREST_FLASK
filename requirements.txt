@@ -5,5 +5,9 @@ passlib
 marshmallow
 python-dotenv
 gunicorn
+<<<<<<< HEAD
 flask_migrate
 gunicorn
+=======
+flask_migrate
+>>>>>>> 1e7228bca7f75be2de72ae1b681c92809c3dfcc1

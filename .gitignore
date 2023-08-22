@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **/.Ds_Store
 **/.venv
 **/.flaskenv
@@ -5,3 +6,11 @@
 **/.dockerignore
 instance
 instance/data.db
+=======
+**/.Ds_Store
+**/.venv
+**/Dockerfile
+**/.flaskenv
+**/__pycache__/
+**/.dockerignore
+>>>>>>> 1e7228bca7f75be2de72ae1b681c92809c3dfcc1

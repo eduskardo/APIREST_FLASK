@@ -6,7 +6,10 @@ class ItemModel(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), unique=False, nullable=False)
+<<<<<<< HEAD
     description = db.Column(db.String)
+=======
+>>>>>>> 1e7228bca7f75be2de72ae1b681c92809c3dfcc1
     price = db.Column(db.Float(precision=2), unique=False, nullable=False)
 
     store_id = db.Column(
